@@ -4,6 +4,10 @@ These create executables that rely on separate library files (shared libraries).
 The final binding of the library routine to the executable code is not done until the program is loaded or even during the execution of the program, hence "dynamic". 
 This makes executables much smaller and allows them to share libraries, saving system resources.
 
+## High-level view of how dynamic linking works
+
+1. **Loading**: When a program that uses shared libraries is executed, the system first loads the dynamic linker. The role of the dynamic linker is essentially to prepare the program to run. It loads the executable into memory and determines which shared libraries are needed by the program.
+
 ## Implicit Linking vs Explicit Linking
 
 Dynamic linking occurs differently based on whether shared libraries are loaded implicitly at load time (static linking) or explicitly at runtime.
@@ -62,4 +66,7 @@ For example, if function funX() defined in one source file File1 calls a functio
 In conclusion, internal linking is about resolving references within the same source file during the compilation process,
 while external linking is about resolving references between different source files during the linking process.
 ```
+
+## PLT and GOT
+
 
