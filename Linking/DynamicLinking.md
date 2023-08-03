@@ -36,3 +36,30 @@ The difference between explicit and implicit linking lies in flexibility versus 
 Explicit dynamic linking provides the program with more direct control over its shared libraries but requires writing additional code to handle the loading, linking, and unloading processes. 
 Implicit dynamic linking handles all this automatically at the cost of flexibility.
 
+## Internal linking vs external linking
+
+Internal linking and external linking refer to the process of converting symbolic references into addresses and assigning memory to those symbols or variables in a program.
+
+Let's look at each type in more detail.
+
+### Internal Linking
+
+Internal linking usually refers to the resolution of symbol references within one compilation unit or module.
+
+During the compile stage, the compiler turns your code into an intermediate object file, resolving any references that it can. This includes function and variable references within the same source file.
+
+For instance, if a function funA() calls another function funB() in the same source file, then the compiler internally links funB() when it compiles funA()—that is, funA() knows how to call funB(). This process is why all functions and global/static variables in the same compilation unit or module must have unique identifiers.
+
+### External Linking
+
+External linking usually refers to the resolution of symbol references between multiple compilation units or modules.
+
+After the source files have been internally linked and compiled into object files, they still may contain references to functions or variables defined in other object files. This is where the linker comes in. The linker's job is to stitch together several object files into a single executable. It does this by resolving the symbols that are unknown at compile time—i.e., those defined in other compilation units or modules—and 'patching' the object files together into a complete executable program.
+
+For example, if function funX() defined in one source file File1 calls a function funY() defined in another source file File2, then the external linker is responsible for providing the correct reference of funY() to funX() at link time.
+
+```
+In conclusion, internal linking is about resolving references within the same source file during the compilation process,
+while external linking is about resolving references between different source files during the linking process.
+```
+
