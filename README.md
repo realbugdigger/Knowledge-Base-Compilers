@@ -44,6 +44,8 @@ https://tomassetti.me/resources-create-programming-languages/
 
 [implementing-type-inference](https://stackoverflow.com/questions/415532/implementing-type-inference)
 
+[Anders Hejlsberg on Modern Compiler Construction](https://learn.microsoft.com/en-us/shows/seth-juarez/anders-hejlsberg-on-modern-compiler-construction)
+
 ## LLVM
 
 https://blog.regehr.org/
