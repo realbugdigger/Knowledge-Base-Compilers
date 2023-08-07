@@ -27,3 +27,23 @@ https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
 
 https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form
 
+## Example
+
+```
+program ::= {statement}
+statement ::= "PRINT" (expression | string) nl
+    | "IF" comparison "THEN" nl {statement} "ENDIF" nl
+    | "WHILE" comparison "REPEAT" nl {statement} "ENDWHILE" nl
+    | "LABEL" ident nl
+    | "GOTO" ident nl
+    | "LET" ident "=" expression nl
+    | "INPUT" ident nl
+comparison ::= expression (("==" | "!=" | ">" | ">=" | "<" | "<=") expression)+
+expression ::= term {( "-" | "+" ) term}
+term ::= unary {( "/" | "*" ) unary}
+unary ::= ["+" | "-"] primary
+primary ::= number | ident
+nl ::= '\n'+
+```
+
+If you'd like to know a bit more about this notation... {} means zero or more, [] means zero or one, + means one or more of whatever is to the left, () is just for grouping, and | is a logical or. Words are either references to other grammar rules or to tokens that we have already defined in our lexer. I denote keywords and operators as quoted strings of text.
