@@ -7,19 +7,19 @@
 4. [Awesome resources on Compilers, Interpreters and Runtimes](https://github.com/aalhour/awesome-compilers)
 
 ## Parsing
-[https://en.wikipedia.org/wiki/Operator-precedence_parser](https://en.wikipedia.org/wiki/Operator-precedence_parser#Pratt_parsing)
+[Recursive descent parser](https://en.wikipedia.org/wiki/Recursive_descent_parser)
 
-[https://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/](https://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/)
+[Operator-precedence_parser](https://en.wikipedia.org/wiki/Operator-precedence_parser)
 
-https://en.wikipedia.org/wiki/Recursive_descent_parser
-
-http://bnfc.digitalgrammars.com/
+[Pratt-parsers-expression-parsing-made-easy](https://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/)
 
 ### Parse Trees and AST
 
 [Grammatically Rooting Oneself With Parse Trees](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff)
 
+### Auxiliary
 
+BNF converter?? - http://bnfc.digitalgrammars.com/
 
 ## General
 
