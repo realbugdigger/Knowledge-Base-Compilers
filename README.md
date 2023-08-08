@@ -17,9 +17,17 @@
 
 [Grammatically Rooting Oneself With Parse Trees](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff)
 
+[Leveling Up One’s Parsing Game With ASTs](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff)
+
+[Abstract vs. Concrete Syntax Trees](https://eli.thegreenplace.net/2009/02/16/abstract-vs-concrete-syntax-trees)
+
+[Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html#Simple-but-Powerful-Pratt-Parsing)
+
 ### Auxiliary
 
 BNF converter?? - http://bnfc.digitalgrammars.com/
+
+Visitor pattern can be usefull when traversing AST - https://refactoring.guru/design-patterns/visitor
 
 ## General
 
