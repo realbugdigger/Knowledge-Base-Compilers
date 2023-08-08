@@ -50,3 +50,14 @@ If you'd like to know a bit more about this notation... {} means zero or more, [
 
 To achieve different levels of precedence, we organize the grammar rules sequentially. Operators with higher precedence need to be "lower" in the grammar, such that they are lower in the parse tree. The operators closest to the tokens in the parse tree (i.e., closest to the leaves of the tree) will have the highest precedence. Another way to think about it is how tightly the operators bind to the operands. When parsing, if there is not an operator at a given level, then it passes through to the next level and creates a node in the tree with only one child.
 
+#### Adding new rule
+
+Let’s modify the grammar to support expressions inside parentheses.
+```
+primary ::= number | ident | LPAREN expression RPAREN
+```
+
+LPAREN represents a left parenthesis ‘(‘, the terminal RPAREN represents a right parenthesis ‘)’
+
+Here is an interesting feature of our new grammar - it is [recursive](https://en.wikipedia.org/wiki/Recursive_descent_parser). If you try to derive the expression 2 * (7 + 3), you will start with the expr start symbol and eventually you will get to a point where you will recursively use the expr rule again to derive the (7 + 3) portion of the original arithmetic expression.
+
