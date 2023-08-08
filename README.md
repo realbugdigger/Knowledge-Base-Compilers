@@ -15,6 +15,12 @@ https://en.wikipedia.org/wiki/Recursive_descent_parser
 
 http://bnfc.digitalgrammars.com/
 
+### Parse Trees and AST
+
+[Grammatically Rooting Oneself With Parse Trees](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff)
+
+
+
 ## General
 
 https://orangejuiceliberationfront.com/how-to-write-a-compiler/
