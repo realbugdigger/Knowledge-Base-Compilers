@@ -4,8 +4,9 @@
 1. [Let's make a Teeny Tiny compiler](https://austinhenley.com/blog/teenytinycompiler1.html)
 2. [Let’s Build A Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)
 3. [ A Compiler Writing Journey ](https://github.com/DoctorWkt/acwj)
-4. [Basics of Compiler Design](http://hjemmesider.diku.dk/~torbenm/Basics/)
-5. [Awesome resources on Compilers, Interpreters and Runtimes](https://github.com/aalhour/awesome-compilers)
+4. [Basics of Compiler Design](http://hjemmesider.diku.dk/~torbenm/Basics/) - basic concepts
+5. [Crafting Interpreters](http://www.craftinginterpreters.com/) - most valuable resource by far for me
+6. [Awesome resources on Compilers, Interpreters and Runtimes](https://github.com/aalhour/awesome-compilers)
 
 ## Parsing
 [Recursive descent parser](https://en.wikipedia.org/wiki/Recursive_descent_parser)
