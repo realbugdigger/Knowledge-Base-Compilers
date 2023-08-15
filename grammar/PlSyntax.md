@@ -61,3 +61,4 @@ LPAREN represents a left parenthesis ‘(‘, the terminal RPAREN represents a r
 
 Here is an interesting feature of our new grammar - it is [recursive](https://en.wikipedia.org/wiki/Recursive_descent_parser). If you try to derive the expression 2 * (7 + 3), you will start with the expr start symbol and eventually you will get to a point where you will recursively use the expr rule again to derive the (7 + 3) portion of the original arithmetic expression.
 
+Recursion in the grammar is a good sign that the language being defined is context-free instead of regular. In particular, recursion where the recursive nonterminal has productions on both sides implies that the language is not regular.
