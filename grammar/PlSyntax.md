@@ -42,7 +42,7 @@ comparison ::= expression (("==" | "!=" | ">" | ">=" | "<" | "<=") expression)+
 expression ::= term {( "-" | "+" ) term}
 term ::= unary {( "/" | "*" ) unary}
 unary ::= ["+" | "-" | "!"] unary | primary
-primary ::= number | ident
+primary ::= number | ident | "true" | "false" | "null"
 nl ::= '\n'+
 ```
 
@@ -54,7 +54,9 @@ To achieve different levels of precedence, we organize the grammar rules sequent
 
 Let’s modify the grammar to support expressions inside parentheses.
 ```
-primary ::= number | ident | LPAREN expression RPAREN
+primary ::= number | ident | "true" | "false" | "null" | LPAREN expression RPAREN
+LPAREN ::= "("
+RPAREN ::= ")"
 ```
 
 LPAREN represents a left parenthesis ‘(‘, the terminal RPAREN represents a right parenthesis ‘)’
