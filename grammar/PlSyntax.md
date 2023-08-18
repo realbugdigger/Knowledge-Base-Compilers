@@ -41,7 +41,7 @@ statement ::= "PRINT" (expression | string) nl
 comparison ::= expression (("==" | "!=" | ">" | ">=" | "<" | "<=") expression)+
 expression ::= term {( "-" | "+" ) term}
 term ::= unary {( "/" | "*" ) unary}
-unary ::= ["+" | "-"] primary
+unary ::= ["+" | "-" | "!"] unary | primary
 primary ::= number | ident
 nl ::= '\n'+
 ```
