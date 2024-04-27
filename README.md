@@ -64,5 +64,7 @@ https://tomassetti.me/resources-create-programming-languages/
 
 ## LLVM
 
+[A Gentle Introduction to LLVM IR](https://mcyoung.xyz/2023/08/01/llvm-ir/)
+
 https://blog.regehr.org/
 
