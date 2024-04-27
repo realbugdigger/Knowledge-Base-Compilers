@@ -62,6 +62,31 @@ https://tomassetti.me/resources-create-programming-languages/
 
 [Anders Hejlsberg on Modern Compiler Construction](https://learn.microsoft.com/en-us/shows/seth-juarez/anders-hejlsberg-on-modern-compiler-construction)
 
+## Program Analysis
+
+https://pwn.umasscybersec.org/lectures/#
+
+https://www.youtube.com/watch?v=te2iYyZfckg&list=PLC-dUCVQghfdu7AG5f_p4oRyKgjDuoAWU
+
+https://github.com/seal9055/resources?tab=readme-ov-file#program-analysis
+
+Principles of Program Analysis (Textbook)
+
+- Data Flow Analysis: Theory and Practice (Textbook)
+
+- Value-Range Analysis of C Programs: Towards Proving the Absence of Buffer
+Overflow Vulnerabilities (Textbook)
+
+University of Pennsylvania Course
+https://www.youtube.com/playlist?list=PLF3-CvSRq2SYXEiS80KuZQ80q8K2
+aHLQX
+
+University of Stuttgart Course
+https://www.youtube.com/playlist?list=PLBmY8PAxzwIEGtnJiucyGAnwWpxA
+CE633
+
+https://edmcman.github.io/papers/oakland10.pdf
+
 ## LLVM
 
 [A Gentle Introduction to LLVM IR](https://mcyoung.xyz/2023/08/01/llvm-ir/)
