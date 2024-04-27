@@ -87,6 +87,18 @@ CE633
 
 https://edmcman.github.io/papers/oakland10.pdf
 
+## Theory to look at
+
+automata theory
+
+graph-coloring
+
+register-spill algorithms
+
+peephole optimizations.
+
+Look for more at: https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/ (Theory section)
+
 ## LLVM
 
 [A Gentle Introduction to LLVM IR](https://mcyoung.xyz/2023/08/01/llvm-ir/)
