@@ -101,7 +101,9 @@ Look for more at: https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/ 
 
 ## LLVM
 
-[A Gentle Introduction to LLVM IR](https://mcyoung.xyz/2023/08/01/llvm-ir/)
+- [A Gentle Introduction to LLVM IR](https://mcyoung.xyz/2023/08/01/llvm-ir/)
 
-https://blog.regehr.org/
+- https://blog.regehr.org/
+
+- [Fuzzer](https://github.com/llvm-mirror/llvm/tree/release_39/lib/Fuzzer): this is [libFuzzer](http://llvm.org/docs/LibFuzzer.html), a coverage-guided fuzzer similar to [AFL](http://lcamtuf.coredump.cx/afl/). It doesn’t fuzz LLVM components, but rather uses LLVM functionality in order to perform fuzzing of programs that are compiled using LLVM.
 
