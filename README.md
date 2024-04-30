@@ -62,6 +62,8 @@ https://tomassetti.me/resources-create-programming-languages/
 
 [Anders Hejlsberg on Modern Compiler Construction](https://learn.microsoft.com/en-us/shows/seth-juarez/anders-hejlsberg-on-modern-compiler-construction)
 
+[Low-Level Software Security for Compiler Developers](https://llsoftsec.github.io/llsoftsecbook/)
+
 ## Program Analysis
 
 https://pwn.umasscybersec.org/lectures/#
@@ -95,8 +97,6 @@ graph-coloring
 
 register-spill algorithms
 
-peephole optimizations.
-
 Look for more at: https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/ (Theory section)
 
 ## LLVM
@@ -106,4 +106,9 @@ Look for more at: https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/ 
 - https://blog.regehr.org/
 
 - [Fuzzer](https://github.com/llvm-mirror/llvm/tree/release_39/lib/Fuzzer): this is [libFuzzer](http://llvm.org/docs/LibFuzzer.html), a coverage-guided fuzzer similar to [AFL](http://lcamtuf.coredump.cx/afl/). It doesn’t fuzz LLVM components, but rather uses LLVM functionality in order to perform fuzzing of programs that are compiled using LLVM.
+
+- LLVM Passes:
+  - https://llvm.org/docs/Passes.html
+  - https://llvm.org/docs/WritingAnLLVMPass.html (Legacy Version)
+ 
 
