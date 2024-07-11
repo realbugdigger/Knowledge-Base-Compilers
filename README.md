@@ -7,6 +7,7 @@
 4. [Basics of Compiler Design](http://hjemmesider.diku.dk/~torbenm/Basics/) - basic concepts
 5. [Crafting Interpreters](http://www.craftinginterpreters.com/) - most valuable resource by far for me
 6. [Awesome resources on Compilers, Interpreters and Runtimes](https://github.com/aalhour/awesome-compilers)
+7. [Tiger compiler Book](https://assignments.lrde.epita.fr/)
 
 ## Parsing
 [Recursive descent parser](https://en.wikipedia.org/wiki/Recursive_descent_parser)
@@ -106,6 +107,8 @@ Look for more at: https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/ 
 - https://blog.regehr.org/
  
 - [Retro Computing - Restoring IMSAI 8080](https://github.com/gt-retro-computing)
+
+- [Retargetable Tiger to MIPS compiler](https://github.com/stong/cs4240-tiger-compiler)
 
 - [Fuzzer](https://github.com/llvm-mirror/llvm/tree/release_39/lib/Fuzzer): this is [libFuzzer](http://llvm.org/docs/LibFuzzer.html), a coverage-guided fuzzer similar to [AFL](http://lcamtuf.coredump.cx/afl/). It doesn’t fuzz LLVM components, but rather uses LLVM functionality in order to perform fuzzing of programs that are compiled using LLVM.
 
