@@ -117,3 +117,10 @@ Look for more at: https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/ 
   - https://llvm.org/docs/WritingAnLLVMPass.html (Legacy Version)
  
 - [Rust compiler internals - MIR](https://blog.rust-lang.org/2016/04/19/MIR.html)
+
+## Obfuscation
+
+- [Capstone library](https://github.com/capstone-engine/capstone)
+
+
+
